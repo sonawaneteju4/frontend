@@ -45,6 +45,7 @@ function App() {
             <Route exact path="/gallery" element={<Gallery />}></Route>
             <Route exact path="/productinfo/:_id" element={<ProductInfo />}></Route>
             <Route  path="/" element={<Index />}></Route>
+            <Route  path="/home" element={<Index />}></Route>
             <Route exact path="/services" element={<Services />}></Route>
             <Route exact path="/contactus" element={<ContactUs />}></Route>
             <Route exact path="/login" element={<Login />}></Route>
