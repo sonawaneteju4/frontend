@@ -14,10 +14,8 @@ status = 200
   force = true
   
 
-  [build]
-  command = "npm run build"
-    public = "/"
-    base="/"
+  []
+
 
 [[headers]]
   for = "/*"
