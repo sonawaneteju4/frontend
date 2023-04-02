@@ -10,8 +10,8 @@ command = "npm run build && npm run export"
 publish = "out"
 
 [[redirects]]
-  from = "/"
-  to = "/index.html"
+  from = "/old-path"
+  to = "/new-path"
   status = 301
   force = false
   query = {path = ":path"}
