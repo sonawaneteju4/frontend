@@ -18,7 +18,7 @@ status = 200
   command = "npm run build"
     public = "/"
     base="/"
-      
+    
 
 [[headers]]
   for = "/*"

@@ -14,11 +14,15 @@ status = 200
   force = true
   
 
-  [build]
-  command = "npm run build"
-    public = "/"
-    base="/"
-      
+
+
+
+    [build]
+  command = "yarn build && yarn conditionally-build-storybook && yarn sitemap"
+  publish = "out"
+  environment = { NODE_VERSION = "14", YARN_VERSION = "1.19.0" }
+  edge_functions = "/src/pages/api"
+  functions = "/src/pages/api"
 
 [[headers]]
   for = "/*"
